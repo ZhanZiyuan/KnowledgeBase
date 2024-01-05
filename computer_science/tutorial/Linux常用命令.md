@@ -489,3 +489,19 @@
     - `-exec grep -l "con" {} +`:
     对找到的文件执行`grep -l "con"`命令，以列出包含字符串`"con"`的文件的文件名。
 
+47. 终止指定用户的所有进程
+
+    使用`pkill`命令：
+
+    ```bash
+    pkill -u yellowdog
+    ```
+
+    使用`killall`命令：
+
+    ```bash
+    killall -u yellowdog
+    ```
+
+    这两个命令都会向属于用户“yellowdog”的所有进程发送终止信号。
+    请注意，强行终止进程可能会导致数据丢失或其他不良影响，因此请谨慎操作。
