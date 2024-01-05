@@ -7,7 +7,7 @@
 1. 首先在VS Code中下载 Remote - SSH 和 Remote - SSH: Editing Configuration Files 两个插件。
 2. 修改VS Code的SSH配置文件。下面是例子：
 
-    ```json
+    ```yaml
     Host group_name
       HostName your_IP
       User your_user_name 
