@@ -480,6 +480,8 @@
 
 10. [Centos, logo Icon](https://icon-icons.com/icon/centos-logo/167761)
 
+11. [Linux下如何高效切换目录？](https://www.51cto.com/article/623540.html)
+
 ## Windows
 
 1. [windows-screenfetch 1.0.2](https://www.powershellgallery.com/packages/windows-screenfetch/1.0.2)
