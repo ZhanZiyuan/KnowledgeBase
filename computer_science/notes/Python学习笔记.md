@@ -668,6 +668,10 @@
 
 27. [赋值表达式 - 表达式](https://docs.python.org/zh-cn/3.11/reference/expressions.html)
 
+28. [模板](https://docs.python.org/zh-cn/3/tutorial/stdlib2.html#templating)
+
+29. [模板字符串](https://docs.python.org/zh-cn/3/library/string.html)
+
 ### 4.1. 规范（Python Enhancement Proposals）
 
 1. [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
@@ -992,3 +996,7 @@
 2. [Python try except finally异常处理](https://www.cjavapy.com/article/1025/)
 
 3. [基础 | 彻底搞懂Python异常处理：try-except-else-finally](https://zhuanlan.zhihu.com/p/360807803)
+
+## 9. Python标准库
+
+1. [Python常用标准库之datetime模块](https://zhuanlan.zhihu.com/p/208291869)
