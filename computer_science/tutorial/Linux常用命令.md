@@ -263,6 +263,11 @@
     chmod +x helloworld.py
     ```
 
+    ```bash
+    # 777：设置文件的权限为读取、写入和执行，无论文件原本有什么权限
+    chmod 777 helloworld.py
+    ```
+
 25. bash-completion - `exec` 命令
     >来自 [Linux 系统中的 Bash 自动补全功能简介](https://kubernetes.io/zh-cn/docs/tasks/tools/included/optional-kubectl-configs-bash-linux/)，
     [What does an "exec" command do?](https://askubuntu.com/questions/525767/what-does-an-exec-command-do)
