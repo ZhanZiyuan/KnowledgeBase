@@ -86,18 +86,73 @@
     mv /usr/lib/*.txt /zone
     ```
 
-13. Linux下解压文件
+13. Linux下解压文件和压缩文件
     >来自 [CSDN](https://blog.csdn.net/laobai1015/article/details/89405905)，
-    [码农教程](http://www.manongjc.com/article/42355.html)
+    [码农教程](http://www.manongjc.com/article/42355.html)，
+    [Linux tar命令参数详细说明](https://blog.csdn.net/u013053075/article/details/103117341)
     和 [Linux unzip命令：解压zip文件](http://c.biancheng.net/view/782.html)
 
-    ```bash
-    # 解压.tar.gz
-    tar zxvf pizza.tar.gz
+    将文件`test_archive_01.tar.gz`解压到目录`blue_archive`
 
-    # 解压.zip：将downloads.zip解压到当前目录下的子目录documents下
-    unzip -d ./documents/ downloads.zip
+    ```bash
+    tar -xzvf test_archive_01.tar.gz -C blue_archive
     ```
+
+    命令的解释：
+    - `-x`：从存档中提取文件。
+    - `-z`：使用gzip算法解压缩。
+    - `-v`：表示详细模式，显示提取的文件列表。
+    - `-f`：指定存档的文件名或者目录名。
+    - `-J`：使用xz算法解压缩。
+
+    将文件`test_archive_02.tar.xz`解压到目录`blue_archive`
+
+    ```bash
+    # -z：默认使用gzip算法解压缩
+    tar -xvf test_archive_02.tar.xz -C blue_archive
+
+    # -J：使用xz算法解压缩
+    tar -xJvf test_archive_02.tar.xz -C blue_archive
+    ```
+
+    将文件`test_archive_03.zip`解压到目录`blue_archive`
+
+    ```bash
+    unzip test_archive_03.zip -d blue_archive
+    ```
+
+    将目录`blue_archive`压缩为文件`red_archive.tar.gz`
+
+    ```bash
+    tar -czvf red_archive.tar.gz blue_archive
+    ```
+
+    命令的解释：
+    - `-c`：创建新的存档文件。
+    - `-z`：使用gzip算法压缩。
+    - `-v`：表示详细模式，显示压缩的文件列表。
+    - `-f`：指定存档的文件名或者目录名。
+
+    将目录`blue_archive`压缩为文件`orange_archive.tar.xz`
+
+    ```bash
+    tar -cJvf orange_archive.tar.xz blue_archive
+    ```
+
+    命令的解释：
+    - `-c`：创建新的存档文件。
+    - `-J`：使用xz算法压缩。
+    - `-v`：表示详细模式，显示压缩的文件列表。
+    - `-f`：指定存档的文件名或者目录名。
+
+    将目录`blue_archive`压缩为文件`green_archive.zip`
+
+    ```bash
+    zip -r green_archive.zip blue_archive
+    ```
+
+    命令的解释：
+    - `-r`：递归地压缩该目录及其下的所有文件。
 
 14. 使用vi编辑`.bashrc`
 
