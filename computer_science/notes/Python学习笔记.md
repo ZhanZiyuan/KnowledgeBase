@@ -924,6 +924,10 @@
 
 27. [第36篇：Python JIT编译器比较、CPyExt接口科普](https://zhuanlan.zhihu.com/p/537059116)
 
+28. [几种流行的 Python 性能加速方案对比](https://zhuanlan.zhihu.com/p/604519817)
+
+29. [Python加速运行技巧](https://zhuanlan.zhihu.com/p/143052860)
+
 ### 7.1. 类型提示（type hints）
 
 1. [Python函数参数中的冒号与箭头](https://blog.csdn.net/qq_31347869/article/details/102401971)
