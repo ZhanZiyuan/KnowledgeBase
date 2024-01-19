@@ -84,5 +84,11 @@
     glances
     ```
 
+13. 通过`Get-Process`获取指定`ProcessName`的所有进程，并使用`Stop-Process`结束它们
+
+    ```powershell
+    Get-Process -Name "WeChat" | Stop-Process -Force
+    ```
+
 [PowerShell]:
 https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3
