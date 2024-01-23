@@ -112,6 +112,10 @@
 
 54. [Monaspace](https://github.com/githubnext/monaspace)
 
+55. [第 1 章 Clean Code 整洁代码](https://github.com/glen9527/Clean-Code-zh/blob/master/docs/ch1.md)
+
+56. [九九乘法表](https://github.com/mizu-bai/NineNineTable)
+
 ## ASCII art
 
 1. [Linux terminal highlights: Going beyond cowsay](https://www.redhat.com/sysadmin/beyond-cowsay)
@@ -253,6 +257,8 @@
 5. [git - 简明指南](https://rogerdudler.github.io/git-guide/index.zh.html)
 
 6. [加速python（二） MPI并行(共享内存)](https://art.dogcraft.top/archives/249/)
+
+7. [Github:release发布版本](https://gohom.win/2015/12/13/github-release/)
 
 ## mathematics
 
@@ -426,6 +432,10 @@
 
 7. [机器学习开源工具BatteryML，一站式分析与预测电池性能](https://mp.weixin.qq.com/s?__biz=MzAwMTA3MzM4Nw==&mid=2649495452&idx=1&sn=630d99547a73776be731eba29e60dce0&chksm=82c7fe18b5b0770efe86137feb8b7daaad5c3458b0d6bdc92949827e3a95eda73b941b7cc9c7&scene=126&sessionid=1693386103#rd)
 
+8. [Molecular Orbital KIT (MOKIT)](https://gitlab.com/jxzou/mokit)
+
+9. [gdpx(GDPy)](https://github.com/hsulab/GDPy)
+
 ## sobereva
 
 1. [数值误差对计算化学结果重现性的影响](http://sobereva.com/88)
@@ -449,6 +459,8 @@
 3. [交换图](https://zhuanlan.zhihu.com/p/104975404)
 
 4. [tikzcd-editor](https://tikzcd.yichuanshen.de/)
+
+5. [轮子改造：github-release-notes](https://zhuanlan.zhihu.com/p/99499246)
 
 ## 第三方库
 
@@ -481,6 +493,10 @@
 10. [Centos, logo Icon](https://icon-icons.com/icon/centos-logo/167761)
 
 11. [Linux下如何高效切换目录？](https://www.51cto.com/article/623540.html)
+
+12. [搜索 Linux 中的文件和文件夹的四种简单方法](https://zhuanlan.zhihu.com/p/52746102)
+
+13. [shell的特殊变量](https://xstarcd.github.io/wiki/shell/shell_special_variables.html)
 
 ## Windows
 
