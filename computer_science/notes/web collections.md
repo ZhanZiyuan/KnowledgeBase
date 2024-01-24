@@ -260,6 +260,10 @@
 
 7. [Github:release发布版本](https://gohom.win/2015/12/13/github-release/)
 
+8. [SSH连接远程服务器与VSCode-remote环境配置](http://home.ustc.edu.cn/~es020711/blog/2022/03/15/SSH%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8EVSCode-remote%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/)
+
+9. [Github 个人主页美化](http://home.ustc.edu.cn/~es020711/blog/2022/02/27/GITHUB-%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E7%BE%8E%E5%8C%96/)
+
 ## mathematics
 
 1. [NLopt--非线性优化--原理介绍及使用方法](https://www.guyuehome.com/35109)
@@ -497,6 +501,8 @@
 12. [搜索 Linux 中的文件和文件夹的四种简单方法](https://zhuanlan.zhihu.com/p/52746102)
 
 13. [shell的特殊变量](https://xstarcd.github.io/wiki/shell/shell_special_variables.html)
+
+14. [Linux下如何高效切换目录？](https://www.cnblogs.com/yychuyu/p/13562089.html)
 
 ## Windows
 
