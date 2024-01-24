@@ -599,6 +599,21 @@
     grep --recursive "Hello Mike" --include=*.log
     ```
 
+    使用`find`和`grep`命令查找包含字符串`"blue_dog"`的扩展名为`".py"`的所有文件：
+
+    ```bash
+    find /path/to/search -type f -name "*.py" -exec grep -l "blue_dog" {} +
+    ```
+
+    命令的解释：
+
+    - `find /path/to/search`: 在指定路径下执行查找操作。
+    - `-type f`: 仅查找文件而非目录。
+    - `-name "*.py"`: 指定查找文件的扩展名为".py"。
+    - `-exec grep -l "blue_dog" {} +`: 对找到的文件执行`grep`命令，查找包含字符串`"blue_dog"`的文件，并输出文件名。
+    `{}`是一个占位符，表示`find`命令找到的每个文件名。`{}`将会被替换为实际的文件名。
+    `+`表示将找到的多个文件名一次性传递给`grep`命令，而不是每个文件单独执行一次`grep`。
+
 50. 统计代码行数
     >来自 [推荐一波代码量、行数、提交量、作者等全维度统计神器](https://zhuanlan.zhihu.com/p/259663572)
 
