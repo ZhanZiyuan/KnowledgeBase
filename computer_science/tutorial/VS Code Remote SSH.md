@@ -1,6 +1,10 @@
 # Visual Studio Code使用SSH远程连接服务器
 
-> First created by *Ziyuan Zhan* on September 29th, 2022. Last updated on November 1st, 2023.
+> First created by *Ziyuan Zhan* on September 29th, 2022. Last updated on February 2nd, 2024.
+>> ATTENTION: Visual Studio Code server has ended its support
+being run on CentOS 7 Server (64-bit) in the latest release (`1.86.0`; stable).
+For more detail, please refer to:
+[Remote host / container / WSL Linux prerequisites](https://code.visualstudio.com/docs/remote/linux#_remote-host-container-wsl-linux-prerequisites).
 
 ## 本地SSH设置
 
@@ -10,9 +14,10 @@
     ```yaml
     Host group_name
       HostName your_IP
-      User your_user_name 
-      Port port_number(e.g., 22) 
+      User your_user_name
+      Port port_number(e.g., 22)
       ServerAliveInterval 40
+      IdentityFile C:\Users\user\.ssh\id_rsa
     ```
 
 现在完成了本地VS Code的SSH设置，接下来需要为服务器安装VS Code Server。
